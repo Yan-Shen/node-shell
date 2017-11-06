@@ -10,11 +10,10 @@ process.stdin.on('data', function (data) {
     }
     command[cmd] && command[cmd](file);
 });
-process.stdout.write('prompt > ');
+process.stdout.write('\nprompt > ');
 
-
-
-
-
+//1
+//2
+//3
+//4
 // The stdin 'data' event fires after a user types in a line
-
